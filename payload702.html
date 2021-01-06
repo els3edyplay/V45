@@ -24,11 +24,11 @@ function done()
 {
     if(main_ret == 0 || main_ret == 179)
     {
-        alert("You're all set!");
+        alert("Jailbreak failed! Reboot your PS4 and try again.");
         read_ptr_at(0);
     }
     else
-        alert("Jailbreak failed! Reboot your PS4 and try again.");
+        alert("You're all set!");
 }
 
 window.midExploit = function()
@@ -55,9 +55,9 @@ window.postExploit = function()
 <button id="input1" onfocus="handle2()"></button>
 <button id="input2"></button>
 <button id="input3" onfocus="handle2()"></button>
-<script src="webkit.js"></script>
 <select id="select1">
 <option value="value1">Value1</option>
 </select>
+<script src="webkit.js"></script>
 </body>
 </html>
